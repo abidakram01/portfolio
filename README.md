@@ -1,3 +1,3 @@
 # Portfolio - Abid Akram
 
-+ Made with tailwind and React
++ Made with Tailwind and React
