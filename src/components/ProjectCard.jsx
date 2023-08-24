@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function ProjectCard({ item }) {
   return (
@@ -9,7 +10,7 @@ function ProjectCard({ item }) {
           <div>
             <h1 className="font-semibold text-2xl">{item.title}</h1>
             <p className="font-normal italic">{item.description}</p>
-            <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-normal rounded-lg text-xs px-4 py-2 text-center mt-3">Explore</button>
+            <Link to={item.path}><button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-normal rounded-lg text-xs px-4 py-2 text-center mt-3">Explore</button></Link>
           </div>
         </div>
       </div>

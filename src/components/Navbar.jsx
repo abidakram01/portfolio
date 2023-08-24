@@ -16,25 +16,24 @@ function Navbar() {
       document.body.scrollTop > 80 ||
       document.documentElement.scrollTop > 80
     ) {
-      document.querySelector(".navbarcon").style.backgroundColor = "#171717";
+      document.querySelector(".navbarcon").style.backgroundColor = "#0c0d0c";
     } else {
-      document.querySelector(".navbarcon").style.backgroundColor =
-        "rgba(0, 0, 0, 0)";
-      document.querySelector(".tl").style.backgroundColor = "rgba(0, 0, 0, 0)";
+      document.querySelector(".navbarcon").style.backgroundColor = "rgba(0, 0, 0, 0)";
+      // document.querySelector(".tl").style.backgroundColor = "rgba(0, 0, 0, 0)";
     }
   }
 
   return (
     <>
-      <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
+      <div className="navbarcon flex justify-between items-center px-20 py-4 bg-transparent z-40 text-white lg:px-4 fixed w-full">
         <h1 className="logo"><img src={logo} /></h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
             durum && "lg:hidden"
-          } lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#171717]  lg:h-[450px] lg:left-0 h-full lg:items-start  lg:pl-6  cursor-pointer lg:pt-20`}
+          } lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#0c0d0c]  lg:h-[450px] lg:left-0 h-full lg:items-start  lg:pl-6  cursor-pointer lg:pt-20`}
         >
-          <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
+          <ul className=" flex gap-10 text-2xl mr-4 lg:flex-col lg:gap-6 ">
             <li className="bla">
               <AnchorLink href="#home">About</AnchorLink>
             </li>

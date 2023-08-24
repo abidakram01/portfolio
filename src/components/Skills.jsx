@@ -18,10 +18,10 @@ function Skills() {
           I'm a big believer in always challenging yourself and learning new skills....
           </p>
           <div className="box text-left bg-[#171717] my-6">
-            <div class="grid grid-cols-5 md:grid-cols-1 gap-10">
+            <div className="grid grid-cols-5 md:grid-cols-1 gap-10">
             <div>
-              <h2 class="mb-2 text-xl font-normal text-sky-200 dark:text-white">Frontend Technologies:</h2>
-                <ul class="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
+              <h2 className="mb-2 text-xl font-normal text-sky-200 dark:text-white">Frontend Technologies:</h2>
+                <ul className="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
                     <li>HTML5 / CSS3</li>
                     <li>Angular</li>
                     <li>Angular Material</li>
@@ -32,8 +32,8 @@ function Skills() {
                 </ul>
               </div>
               <div>
-              <h2 class="mb-2 text-xl font-normal text-sky-200 dark:text-white">Design:</h2>
-                <ul class="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
+              <h2 className="mb-2 text-xl font-normal text-sky-200 dark:text-white">Design:</h2>
+                <ul className="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
                     <li>Product Design</li>
                     <li>User Experience Design</li>
                     <li>Interaction Design</li>
@@ -44,16 +44,16 @@ function Skills() {
                 </ul>
               </div>
               <div>
-              <h2 class="mb-2 text-xl font-normal text-sky-200 dark:text-white">Research:</h2>
-                <ul class="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
+              <h2 className="mb-2 text-xl font-normal text-sky-200 dark:text-white">Research:</h2>
+                <ul className="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
                     <li>User Research</li>
                     <li>Usability Testing</li>
                     <li>Personas & Scenarios</li>
                 </ul>
               </div>
               <div>
-              <h2 class="mb-2 text-xl font-normal text-sky-200 dark:text-white">Collaboration:</h2>
-                <ul class="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
+              <h2 className="mb-2 text-xl font-normal text-sky-200 dark:text-white">Collaboration:</h2>
+                <ul className="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
                     <li>Project Management</li>
                     <li>Communication</li>
                     <li>Problem Solving</li>
@@ -61,8 +61,8 @@ function Skills() {
               </div>
           
               <div>
-              <h2 class="mb-2 text-xl font-normal text-sky-200 dark:text-white">Tools:</h2>
-                <ul class="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
+              <h2 className="mb-2 text-xl font-normal text-sky-200 dark:text-white">Tools:</h2>
+                <ul className="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-gray-400">
                     <li>Figma</li>
                     <li>Notion</li>
                     <li>Zeplin</li>

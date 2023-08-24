@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from "../components/Header"
 import Contact from "../components/Contact"
-import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
 
 function Home() {
   return (
     <>
-     <Header/> 
-     <Skills/> 
-     <Projects/>
-     <Contact/>
-     <Footer/>
+      <Navbar />
+      <Header />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   )
 }
