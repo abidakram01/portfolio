@@ -21,18 +21,12 @@ function Contact() {
                   type="text"
                   placeholder="Name"
                 />
-
               </div>
               <div className="flex gap-4  py-4  ">
                 <input
-                  className="bg-transparent h-14  rounded-2xl   border-[1px] border-white pl-4 text-white placeholder-white  lg:w-36"
+                  className="bg-transparent h-14  rounded-2xl   border-[1px] border-white pl-4 text-white placeholder-white w-full"
                   type="email"
                   placeholder="Email"
-                />
-                <input
-                  className="bg-transparent h-14  rounded-2xl  border-[1px] border-white pl-4 text-white placeholder-white  lg:w-36"
-                  type="phone"
-                  placeholder="Phone"
                 />
               </div>
               <textarea
