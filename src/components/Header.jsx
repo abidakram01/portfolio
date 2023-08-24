@@ -20,7 +20,6 @@ function Header() {
         <p className='text-white py-4 max-w-lg'>Hello, I'm a UI/UX designer and Front-end Developer with 5+ years of experience. I'm passionate about creating seamless digital experiences, blending creativity with technical expertise. I have a keen eye for user behavior, staying up-to-date with design trends for captivating interfaces. I design and code all websites from scratch, specialising in web standards compliant code.</p>
         <p className='text-white py-4 max-w-lg'>Also, enjoy photography, which adds an emotional touch to my work. My goal is to leave a lasting impact on every project.</p>
         <a href={downloadCV} download="Abid_Akram_UIUX_Designer_Resume.pdf" target="_blank" rel="noreferrer"><button  className='mr-3 border-2 border-[#b0aaaa] font-light text-sm text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-2 rounded-xl'>Download CV </button></a>
-        {/* <a href={downloadCV} download="Abid_Akram_UIUX_Designer_Resume.pdf" target="_blank" rel="noreferrer"><button  className='border-2 border-[#b0aaaa] font-light text-sm text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-2 rounded-xl'>Download CV </button></a> */}
       </div>
       <div className="image banner-astronout lg:hidden absolute w-[300px] flex ">
       <img className='w-96 ast-img' src={logo1} alt="" />

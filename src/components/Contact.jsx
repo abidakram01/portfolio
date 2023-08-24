@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/images/contact-img.svg";
+import downloadCV from '../assets/images/Abid_Akram_UIUX_Designer_Resume.pdf'
 
 function Contact() {
   return (
@@ -9,34 +10,20 @@ function Contact() {
           <div className="imgbox lg:hidden">
             <img className="w-[550px] h-full" src={img} alt="" />
           </div>
-          <div className="content-box">
-            <h1 className="text-white font-bold text-4xl py-4">Get In Touch</h1>
+          <div className="content-box ">
+            <h1 className="text-white font-semibold text-4xl py-2">Contact</h1>
+            <p className="text-lg font-normal py-1 text-white mb-5">Reach Out and Ignite the Conversation!</p>
             <p className="text-xl font-thin py-3 text-white"><i class="me-3 fa-solid fa-envelope"></i>abid.akram01@gmail.com</p>
             <p className="text-xl font-thin py-3 text-white"><i class="me-3 fa-solid fa-phone"></i>+91-9026553313</p>
-            <p className="text-xl font-semibold text-center text-white dark:text-white">or</p>
-            <form action="" className="flex flex-col ">
-              <div className="gap-4 py-2">
-                <input
-                  className="bg-transparent h-14 rounded-2xl  border-[1px] border-white pl-4 text-white placeholder-white w-full"
-                  type="text"
-                  placeholder="Name"
-                />
-              </div>
-              <div className="flex gap-4  py-4  ">
-                <input
-                  className="bg-transparent h-14  rounded-2xl   border-[1px] border-white pl-4 text-white placeholder-white w-full"
-                  type="email"
-                  placeholder="Email"
-                />
-              </div>
-              <textarea
-                className="bg-transparent rounded-2xl border-[1px] border-white h-36 pl-4 text-white w-full placeholder-white pt-2"
-                rows={40}
-                cols={35}
-                placeholder="Message"
-              ></textarea>
-              <button className="bg-white border-black border-[1] py-[16px] rounded-lg px-8 my-8 w-32 font-bold ">Send</button>
-            </form>
+            <p className="text-xl font-normal py-5 text-center text-white dark:text-white">Else</p>
+           
+            <a href={downloadCV} download="Abid_Akram_UIUX_Designer_Resume.pdf" target="_blank" rel="noreferrer">
+              <button class="relative inline-flex mt-4 items-center w-full justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                <span class="relative w-full px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Download CV
+                </span>
+              </button>
+            </a>
           </div>
 
 

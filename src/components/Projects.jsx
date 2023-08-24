@@ -83,10 +83,8 @@ function Projects() {
             Text-2
           </button> */}
         </div>
-        <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
-          {durum === 1
-            ? projects.map((item, i) => <ProjectCard key={i} item={item} />)
-            : null}
+        <div className="grid grid-cols-4 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1">
+          {durum === 1 ? projects.map((item, i) => <ProjectCard key={i} item={item} />) : null}
         </div>
         {/* {durum === 2 ? (
           <div
