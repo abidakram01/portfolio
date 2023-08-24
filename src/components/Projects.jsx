@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img1 from "../assets/images/project-img1.png";
+import img1 from "https://ibb.co/xLg3sJn";
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
 
