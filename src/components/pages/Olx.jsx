@@ -7,7 +7,7 @@ function Olx() {
     <>
       <InnerNavbar />
       <div id="olx" className="projects  bg-[#171717]">
-        <div className='px-20 py-20'>
+        <div className='px-60 py-20'>
           <img className='w-full ast-img' src={olxImg} alt="" />
         </div>
       </div>

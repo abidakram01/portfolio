@@ -21,7 +21,6 @@ function Header() {
           </div>
           <div className="image banner-astronout lg:hidden absolute w-[300px] flex ">
             <img className='w-96 ast-img' src={logo1} alt="" />
-
           </div>
           <div className="image banner-astronout1 lg:hidden absolute w-[300px] flex ">
             <img className='w-96 ast-img' src={logo} alt="" />
