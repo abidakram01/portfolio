@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../assets/images/astronout.png"
 import logo1 from "../assets/images/astronout1.png"
-import bg from "../assets/images/bg.jpg"
+import bg from "../assets/images/bg.png"
 import downloadCV from '../assets/images/Abid_Akram_UIUX_Designer_Resume.pdf'
 import "../styles.css"
 
